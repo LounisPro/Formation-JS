@@ -1,6 +1,4 @@
 let score = 0;
-
-
 let choix = ChoisirPhrasesOuMots()
 
 //Choix mots par l'utilisateur
@@ -46,11 +44,12 @@ score ++;
 console.log("Votre score est à présent de " + score + "." );
 }
 
-
+//Fonction qui affiche le score de l'utilisateur
 function afficherResultat(score, nombreMot) {
     console.log("Votre score est de " + score + " sur "+ nombreMot + ".") ;
 }
 
+//Fonction qui définis le choix de l'utilisateur
 function ChoisirPhrasesOuMots() {
     let choix = prompt("Avec quelle liste désirez-vous jouer : 'mots' ou 'phrases' ?");
     while ( choix != "mots" || choix != "phrases" ) {
@@ -59,7 +58,7 @@ function ChoisirPhrasesOuMots() {
     }
 }
 
-// Restriction mots injurieux, a dev plus tard
+// Restriction mots injurieux, a dev plus tard.
 /*
 switch (motUtilisateur) {
     case motValide:
