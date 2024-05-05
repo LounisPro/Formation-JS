@@ -59,49 +59,11 @@ function ChoisirPhrasesOuMots() {
     }
 }
 
-/*
-let motUtilisateur = prompt("Entrez le mot : " + listeMots[0] );
-
-
-while (motUtilisateur != listeMots[0]) {
-    motUtilisateur = prompt("Le mot entré est différent de " + listeMots[0] + ". Entrez le mot " + listeMots[0])
-    
-}
-
-score ++;
-console.log("Votre score est à présent de " + score + "." );
-
-motUtilisateur = prompt("Entrez le mot : " + listeMots[1] );
-
-while (motUtilisateur != listeMots[1]) {
-    motUtilisateur = prompt("Le mot entré est différent de " + listeMots[1] + ". Entrez le mot " + listeMots[1])
-}
-
-score ++;
-console.log("Votre score est à présent de " + score + "." );
-
-
-motUtilisateur = prompt("Entrez le mot : " + listeMots[2] );
-
-
-while (motUtilisateur != listeMots[2]) {
-    motUtilisateur = prompt("Le mot entré est différent de " + listeMots[2] + ". Entrez le mot " + listeMots[2])
-}
-
-score ++;
-console.log("Votre score est à présent de " + score + "." );
-
-
-
-
-
-
-
+// Restriction mots injurieux, a dev plus tard
 /*
 switch (motUtilisateur) {
     case motValide:
-        console.log("Bien joué, tu remportes un point !")
-        
+        console.log("Bien joué, tu remportes un point !")        
         break
     case "Mécréant":
         console.log("Restons poli.")
