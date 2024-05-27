@@ -1,0 +1,95 @@
+body {
+    background : black;
+}
+
+h1 {
+    color : rgb(0, 0, 0);
+    margin: 0 auto;
+}
+
+.container {
+    margin : 50px auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display : flex;
+    flex-direction: column;
+    border: 10px double rgb(14, 0, 141);
+    border-radius: 0% 0% 15% 15%;
+    background-color: bisque;
+    padding: 0.5rem;
+    height: 500px;
+    width : 650px;
+}
+
+#titleBlock {
+    border: 5px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    padding: 0.5rem;
+    display : flex;
+    width : 500px;
+    height: 25px;
+}
+
+#titleBlock h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+#motsPhrases{
+    margin : 5px auto;
+}
+
+#blockPrincipal{
+    background-color: bisque;
+    min-height: 400px;
+    min-width: 450px;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+#score {
+    border: 2px ridge black;
+    background-color: white;
+    padding: 0.5rem;
+    display : flex;
+    width : 300px;
+    height: 25px;
+    align-items: flex-end;
+    margin : 5px auto;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+#zoneProposition{
+    border: 2px ridge black;
+    background-color: rgb(12, 237, 245);
+    display : flex;
+    width : 500px;
+    height: 30px;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 15px;
+    margin : 20px auto;
+    }
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+#motsPhrases {
+    border : 5px ridge rgb(14,0,141);
+    width : 300px;
+}
+
+
+#zoneTexte {
+    margin : 25px auto;
+}

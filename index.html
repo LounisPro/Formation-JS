@@ -4,12 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="config.js"></script>
-    <script src="code.js"></script>
-
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Speed Word</title> 
+    <script src ="integreCode.js" defer></script> 
 </head>
+
 <body>
+    <div class="container">
+        <div id="titleBlock"><h1>Speed Word</h1></div>
+        <div id="blockPrincipal"><h3>Choisissez le mode de jeu de votre choix :</h3>
+            <div id="motsPhrases">
+                <input type="radio" id="mot" name="mode" value="mots" />
+                <label for ="mot">Mots</label>
+                <input type="radio" id="phrases" name="mode" value="phrases" />
+                <label for ="phrases">Phrases</label>
+            </div>
+
+                <br><br>
+        
+        <div id="zoneTexte">
+            <label for="zoneReponse">Entrer le texte suivant le plus rapidement possible :</label> 
+                <div id="zoneProposition"><p>Ici sera la zone de proposition.</p></div>
+            <input type="text" id="reponse" name="zoneReponse" required minlength="2" maxlength="10" size="20"/>
+            <input type="submit" id="valider" name="Valider">
+        </div>
+        </div>
     
+    <div id="score">Votre score est de :</div>
+
+    </div>
+    
+    <footer>
+        Propriété de la FellahCorporation. Tous droits réservés.
+    </footer>
 </body>
+
 </html>
